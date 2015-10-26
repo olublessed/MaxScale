@@ -1,2 +1,4 @@
 language: c
 script: cmake . && make
+before_install:
+  - sudo apt-get -y install build-essential libssl-dev libaio-dev ncurses-dev bison cmake perl libtool librabbitmq-dev libcurl-dev libpcre3-dev libmariadbclient-dev libmariadbd-dev
